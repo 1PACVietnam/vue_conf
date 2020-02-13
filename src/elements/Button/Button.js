@@ -5,13 +5,13 @@ const styleButton = status => {
   switch (status) {
     case 'primary':
       return `
-          background-color: ${colors.white};
-          color: ${colors.primary};
+        background-color: ${colors.white};
+        color: ${colors.primary};
       `
     case 'error':
       return `
-          background-color: ${colors.white};
-          color: ${colors.error};
+        background-color: ${colors.white};
+        color: ${colors.error};
       `
     case 'success':
       return `
@@ -20,8 +20,8 @@ const styleButton = status => {
       `
     default:
       return `
-          background-color: ${colors.white};
-          color: ${colors.default};
+        background-color: ${colors.white};
+        color: ${colors.default};
       `
   }
 }
