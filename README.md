@@ -1,7 +1,7 @@
 ## Vue configuration
 
 ### Stacks
-* [Vue-cli@3](https://cli.vuejs.org/guide/)
+* [Vue-cli@4](https://cli.vuejs.org/guide/)
 * Vue 2.6.11
 * Vue Ecosystem: vue-i18n, vue-router, vuelidate, vue-styled-components, [vue-test-utils](https://vue-test-utils.vuejs.org/), vuex
 * axios
