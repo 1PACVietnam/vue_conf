@@ -1,7 +1,7 @@
 ## Project Structure
 
 ```
-./app/javascript/
+./
 |
 |- dist/   __________________ # Contain project after build (folder to deploy)
 |
