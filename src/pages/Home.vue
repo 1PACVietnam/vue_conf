@@ -1,17 +1,19 @@
 <template>
-  <div class="home">
+  <op-wrapper>
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  </op-wrapper>
 </template>
 
 <script>
-import HelloWorld from '@/components/HelloWorld.vue'
+import OpWrapper from '@/elements/Wrapper/Wrapper.js'
+import HelloWorld from '@/components/HelloWorld'
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    HelloWorld,
+    OpWrapper
   }
 }
 </script>
