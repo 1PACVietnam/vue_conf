@@ -19,5 +19,6 @@
 |- .stylelintrc    ___________ # Configuration for stylelint
 |- babel.config.js ___________ # Configuration for babel loader
 |- jest.config.js  ___________ # Configuration for jest
-|- vue.config.js   ___________ # Override default vue config by vue-cli@3
+|- vue.config.js   ___________ # Override default vue config by vue-cli@4
+
 ```
