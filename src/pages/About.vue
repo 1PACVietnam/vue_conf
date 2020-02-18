@@ -1,5 +1,7 @@
 <template>
   <op-wrapper>
+    <app-header />
+
     <op-heading>This is an about page</op-heading>
     <op-button status="default">Button</op-button>
     <op-button status="default">Button</op-button>
@@ -13,10 +15,13 @@
 </template>
 
 <script>
-import OpWrapper from '@/elements/Wrapper/Wrapper.js'
+import OpWrapper from '@/elements/Wrapper/Wrapper'
 import OpButton from '@/elements/Button/Button'
 import OpInput from '@/elements/Input/Input'
 import OpHeading from '@/elements/Heading/Heading'
+
+import AppHeader from '@/components/AppHeader/AppHeader'
+
 import exampleValidation from '@/validations/exampleValidation'
 
 export default {
@@ -27,6 +32,7 @@ export default {
   },
 
   components: {
+    AppHeader,
     OpButton,
     OpInput,
     OpWrapper,
