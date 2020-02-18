@@ -3,6 +3,9 @@ node_modules
 /dist
 
 /tests/e2e/reports/
+/tests/coverage/
+/src/**/__snapshots__/
+/tmp
 selenium-debug.log
 chromedriver.log
 geckodriver.log
